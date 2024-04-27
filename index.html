@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Elixir</title>
+</head>
+
+<body>
+
+
+    <!-- navbar ///////////////////// -->
+    <nav class=" position-fixed navbar navbar-expand-lg  px-5">
+        <div class="container-fluid d-flex justify-content-around justify-content-lg-center px-5">
+            <a class=" navbar-brand" href="#"><span class="font">Elixir</span></a>
+            
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" role="button" aria-expanded="false">
+                            Home
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#services" role="button" aria-expanded="false">
+                            Services
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#leadership" role="button" aria-expanded="false">
+                            Leadership
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#latest" role="button" aria-expanded="false">
+                            Latest News
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link d-block d-lg-none">purchase</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">ContactUs</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-outline-primary d-none d-lg-block ">purchase</button>
+        </div>
+    </nav>
+    <!-- additional navbar  -->
+    <!-- <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
+        <div class="container"> <a class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    <!-- carousel///////////////////////////// -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+                class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="text d-flex align-item-center position-absolute z-3  start-10 d-none d-lg-flex ">
+                <div class=" hi right">
+                    <h1>Expert Consultants</h1>
+                    <p>Over 10 years experience in helping clients <br>finding comprehensive solutions</p>
+                    <button class="btn but text-capitalize">Read more</button>
+                    <button class="btn but2  text-capitalize">contact us</button>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
+                <img src="clusore1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="clusore2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="clusore3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="clusore4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="clusore5.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <sectoin class="sec1 sec4">
+        <div
+            class="container text-capitalize d-flex flex-column justify-content-center align-item-center after-text text-center my-5">
+            <h1>welcome to the elixir</h1>
+            <hr>
+            <p>get expert consultancy and support with elixir, an advisory firm <br>that stand by your side always.</p>
+        </div>
+
+        <div class="icons container my-5">
+            <div class="row ">
+                <div class="icon1 col-lg-3 col-md-3  col-12 mb-4  text-center">
+                    <div class="icon"><i class='bx bxs-business'></i></div>
+                    <h1 class="my-2">business cunsultancy</h1>
+                    <p>solution for every business, related problems, readily and skillfully.</p>
+                </div>
+                <div class="icon2 col-12 col-lg-3 col-md-3 mb-4 text-center">
+                    <div class="icon"><i class='bx bx-bulb'></i></div>
+                    <h1 class="my-2">Risk Management</h1>
+                    <p>Calculate every possible risk in your Business, take control over them.</p>
+                </div>
+                <div class="icon3 col-lg-3 col-md-3 col-12 mb-4 text-center">
+                    <div class="icon"><i class='bx bx-bell'></i></div>
+                    <h1 class="my-2">Market Research</h1>
+                    <p>Knowing the market before taking any step, reduce risks before you go.</p>
+                </div>
+                <div class="icon4 col-lg-3 col-md-3 col-12 mb-4 text-center">
+                    <div class="icon"><i class='bx bx-headphone'></i></div>
+                    <h1 class="my-2">Quality Service</h1>
+                    <p>Experience unparalleled service, from beginning to final construction.</p>
+                </div>
+            </div>
+        </div>
+    </sectoin>
+
+    <div class="container3 container ">
+        <div class="row text-capitalize">
+
+            <iframe class="col-12 rounded-5 my-5" width="560" height="515"
+                src="https://www.youtube.com/embed/zVBHOKJgouI?si=CchvBepM-Sdwq1Du" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <div class="team1 col-lg-4 col-md-4 col-12 mb-4">
+                <h1><i class='bx bxs-group'></i>Awesome Team</h1>
+                <p>Before talking destination, we shine a spotlight across your organization to fully understand it.</p>
+            </div>
+            <div class="team2 col-lg-4 col-md-4 col-12 mb-4">
+                <h1><i class='bx bxl-messenger'></i>Excellent Support</h1>
+                <p>if you face any trouble, you can always let our dedicated support team help you. They are ready for
+                    you 24/7.</p>
+            </div>
+            <div class="team3 col-lg-4 col-md-4 col-12 mb-4">
+                <h1><i class='bx bx-mask'></i>Faster Performance</h1>
+                <p>We develop a systematic well-ordered process of analysis, from concept through implementation</p>
+            </div>
+
+
+        </div>
+    </div>
+    <section id="services" class="sec4">
+        <div class="container4 container">
+            <div class="top text-center my-5 py-5">
+                <h1 class="mt-5">our services</h1>
+                <hr>
+            </div>
+            <div class="bottom d-flex justify-content-center align-items-center flex-column">
+                <div class=" change col-md-6">
+                    <div
+                        class="bg row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block order-2">
+                            <img class="bd-placeholder-img " width="300" height="250" src="service03.jpg">
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static order-1">
+                            <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+                            <h3 class="mb-0">Business Consulting</h3>
+                            <div class="mb-1 text-body-secondary">Nov 11</div>
+                            <p class="mb-auto">As one of the world's latgest accountancy networks, elixir helps a
+                                diverse range of clients with a diverse range of needs. This is especially true of our
+                                Advisory Practice, which provides corporate finance and transaction services, business
+                                restructuring.</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                <p>Learn More<i class='bx bx-right-arrow-alt'></i></p>
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="change col-md-6">
+                    <div
+                        class="bg row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block order-1">
+                            <img class="bd-placeholder-img " width="300" height="250" src="service01.jpg">
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static order-2">
+                            <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+                            <h3 class="mb-0">Tax Consulting</h3>
+                            <div class="mb-1 text-body-secondary">Nov 11</div>
+                            <p class="mb-auto">Elixir serves clients across the country and round the world as they
+                                navigate an increasingly complex tax landscape. Our tax professionals draw on deep
+                                experience and industry-specific knowledge to deliver clients the insights and
+                                innovation they need.</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                <p>Learn More<i class='bx bx-right-arrow-alt'></i></p>
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="change col-md-6">
+                    <div
+                        class="bg row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block order-2">
+                            <img class="bd-placeholder-img " width="300" height="250" src="service02.jpg">
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static order-1">
+                            <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+                            <h3 class="mb-0">Advisory</h3>
+                            <div class="mb-1 text-body-secondary">Nov 11</div>
+                            <p class="mb-auto">To help you understand what this road looks like, we surveyed 1165
+                                digital marketers across Europe and North America to explore current trends and
+                                priorities in digital marketing.</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                <p>Learn More<i class='bx bx-right-arrow-alt'></i></p>
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="bottom2 row text-center my-5 text-md-start">
+                <div class="team1 col-lg-4 col-md-4 col-12 mb-4">
+                    <h1><i class='bx bxs-group'></i>Special Financing</h1>
+                    <p>Apply for special financial support and earn exlusive rewards.</p>
+                </div>
+                <div class="team2 col-lg-4 col-md-4 col-12 mb-4">
+                    <h1><i class='bx bxl-messenger'></i>Chat with team</h1>
+                    <p>Have a question? Chat online with an expert. <strong>Start chatting</strong></p>
+                </div>
+                <div class="team3 col-lg-4 col-md-4 col-12 mb-4">
+                    <h1><i class='bx bx-mask'></i>Call a specialist</h1>
+                    <p>Our 24/7 support team is ready for you at 1-800-MY-Elixir.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec5">
+        <div class="container5 container ">
+            <div class="top text-center">
+                <h1>why choose elixir</h1>
+                <hr>
+            </div>
+            <div class="bottom d-flex flex-column justify-content-center align-items-center my-5">
+                <div class=" change col-md-6">
+                    <div
+                        class="change1 row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block order-1">
+                            <img class="bd-placeholder-img " width="400" height="500" src="choose.jpg">
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static order-2">
+                            <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+                            <h3 class="mb-0 text-capitalize">we are professional</h3>
+                            <p class="mb-4">We resource, train, speak, mentor and encourage; marketplace leaders,
+                                business owners and career professionals to be effective in the workplace.</p>
+                            <h3 class="mb-0 text-capitalize">we are creative</h3>
+                            <p class="mb-4">With so many factors to consider when deciding how to characterize your
+                                company, wouldn't it be great to have a group of forward-thinking, well-informed
+                                individuals on board who know what they're doing?</p>
+                            <h3 class="mb-0 text-capitalize">24/7 great support</h3>
+                            <p class="mb-4">This is a wider card with supporting text below as a natural lead-in to
+                                additional content.</p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="alert alert-primary d-flex justify-content-center align-items-center " role="alert">
+        <div class="inner">If you have any query related investment... We are available /7 <button
+                class="btn btn-outline-primary mx-5">contact us</button></div>
+    </div>
+
+    <section class="sec6 my-5">
+        <div class="container container6">
+            <div class="top text-capitalize text-center">
+                <h1>Things you get</h1>
+                <hr>
+            </div>
+            <div class="bottom">
+                <div class="row my-5">
+                    <div class="first d-flex flex-column text-center col-lg-4 col-md-4 text-md-start col-12 mb-4">
+                        <i class='bx bxs-business '></i>
+                        <h1>creative support</h1>
+                        <p>We transform brands, grow business, and tell brand and product stories in a most creative
+                            way.</p>
+                    </div>
+                    <div class="first d-flex flex-column text-center col-lg-4 col-md-4 text-md-start col-12 mb-4">
+                        <i class='bx bx-envelope'></i>
+                        <h1>creating experiences</h1>
+                        <p>We cover a large range of creative platforms and digital projects with one purpose: to create
+                            experiences.</p>
+                    </div>
+                    <div class="first d-flex flex-column text-center col-lg-4 col-md-4 text-md-start col-12 mb-4">
+                        <i class='bx bx-target-lock'></i>
+                        <h1>product consulting</h1>
+                        <p>We guide you through the piplines that generate new products with higher potential and lower
+                            risk.</p>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="first d-flex flex-column text-center col-lg-4 col-md-4 text-md-start col-12 mb-4">
+                        <i class='bx bx-podcast'></i>
+                        <h1>Business Boosting</h1>
+                        <p>We provide energy-efficient and environmentally conservative solutions to our clients to
+                            boost their business.</p>
+                    </div>
+                    <div class="first d-flex flex-column text-center col-lg-4 col-md-4 text-md-start col-12 mb-4">
+                        <i class='bx bx-money'></i>
+                        <h1>Strategies Approach</h1>
+                        <p>Based on solid strategic framework and real, relevant research, we create prototypes, not
+                            presentations.</p>
+                    </div>
+                    <div class="first d-flex flex-column text-center col-lg-4 col-md-4 text-md-start col-12 mb-4">
+                        <i class='bx bx-candles'></i>
+                        <h1>Logistic Consulting</h1>
+                        <p>We work buy side and sell side to give our clients hard hitting answers and focus hard on
+                            best opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec7">
+        <div class="container container7 d-flex ">
+            <div class="row gap-3 justify-content-center align-items-center">
+                <div class="box col-lg-4 col-12 mb-5 rounded-4 text-center">
+                    <h1>Request a call back</h1>
+                    <p>Would you like to speak to one or our financial advisers over the phone?<br>Just submit your
+                        details and we'll be in touch shortly. You can also email us if you would prefer.</p>
+                </div>
+                <div class="second col-lg-7 col-12 mb-4">
+                    <form>
+                        <div class="row mx-5">
+                            <div class="mb-3 col-12 col-lg-6">
+                                <label for="exampleInputEmail1" class="form-label"></label>
+                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Your Name">
+
+                            </div>
+                            <div class="mb-3 col-12 col-lg-6">
+                                <label for="exampleInputNumber1" class="form-label"></label>
+                                <input type="number" class="form-control" id="exampleInputNumber1"
+                                    placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3 col-12 col-lg-6">
+                                <label for="exampleInputPassword1" class="form-label"></label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Your Subject">
+                            </div>
+                            <div class="mb-3 col-12 col-lg-6">
+                                <label for="exampleInputPassword1" class="form-label"></label>
+                                <input type="submit" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Your Subject">
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="leadership" class="sec8">
+        <div class="container container8">
+            <div class="top text-center mb-4">
+                <h1>Global Leadership</h1>
+                <hr>
+            </div>
+            <div class="bottom my-5 d-flex  align-items-center justify-content-center">
+                <div class="row gap-5 ">
+                    <div class="card col-6 col-lg-4" style="width: 18rem;">
+                        <img src="men1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reenal Scott</h5>
+                            <p class="card-text">Reenal Scott is the Founder and CEO of the Elixir, which he started
+                                from his dorm room in 2013 with 3 people only.</p>
+                        </div>
+                    </div>
+                    <div class="card col-6 col-lg-4" style="width: 18rem;">
+                        <img src="girl1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lilly Anderson</h5>
+                            <p class="card-text">Lilly leads Elixir UK and overseas the company's Customer Operations
+                                teams supporting millions of users.</p>
+                        </div>
+                    </div>
+                    <div class="card col-6 col-lg-4" style="width: 18rem;">
+                        <img src="men2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Thomas Anderson</h5>
+                            <p class="card-text">As the VP of People, Thomas focus lies in the development and
+                                optimization of the talent retention.</p>
+                        </div>
+                    </div>
+
+                    <div class="card col-6 col-lg-4" style="width: 18rem;">
+                        <img src="girl2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Legartha Mantana</h5>
+                            <p class="card-text">As General Counsel of Elixir, Tony oversees global legal activities and
+                                policies across all aspects.</p>
+                        </div>
+                    </div>
+                    <div class="card col-6 col-lg-4" style="width: 18rem;">
+                        <img src="men3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">John Snow</h5>
+                            <p class="card-text">John has overseen the mereoric growth while protecting scaling its
+                                uniquely creative and culture.</p>
+                        </div>
+                    </div>
+                    <div class="card col-6 col-lg-4" style="width: 18rem;">
+                        <img src="men4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ragner Lothbrok</h5>
+                            <p class="card-text">Ragner, SVP of Engineering, oversees Elixir's vast engineering
+                                organization which drives the core programming.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec9 my-5">
+        <div class="container container9">
+            <div class="top my-3">
+                <span>
+                    <h1><i class='bx bx-check'></h1></i>
+                </span>
+                <h1><span>Take the right step,<br></span>do the big things.</h1>
+
+            </div>
+            <div class="bottom row text-center">
+                <div class="the1 col-6 col-lg-3">
+                    <h1>52</h1>
+                    <p>Cases Solved</p>
+                </div>
+                <div class="the2 col-6 col-lg-3">
+                    <h1>164</h1>
+                    <p>Trained Experts</p>
+                </div>
+                <div class="the3 col-6 col-lg-3">
+                    <h1>38</h1>
+                    <p>Branches</p>
+                </div>
+                <div class="the4 col-6 col-lg-3">
+                    <h1>100</h1>
+                    <p>satisfied Clients</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec10">
+        <div class="container container10 d-flex justify-content-center">
+            <div class=" change col-md-6 ">
+                <div
+                    class="bg row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col-auto d-none d-lg-block order-1">
+                        <img class="bd-placeholder-img " width="300" height="250" src="profile.jpg">
+                    </div>
+                    <div class="col p-4 d-flex flex-column position-static order-2">
+
+                        <p class="mb-auto">As a sales gamification, we were skeptical to work with a consultant to
+                            optimize our sales emails, but Elixir was highly recommended by many other Y-Combinator to
+                            startups we knew. <br> Elixir helped us run a ~6 week email campaign.</p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Read More..
+                            <svg class="bi">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="brands py-5 d-none d-lg-block">
+        <div class="container ">
+            <div class="row">
+                <div class="logo col-lg-2 col-4"><img src="first.png" alt=""></div>
+                <div class="logo col-lg-2 col-4"><img src="second.png" alt=""></div>
+                <div class="logo col-lg-2 col-4"><img src="third.png" alt=""></div>
+                <div class="logo col-lg-2 col-4"><img src="fourth.png" alt=""></div>
+                <div class="logo col-lg-2 col-4"><img src="first.png" alt=""></div>
+                <div class="logo col-lg-2 col-4"><img src="sixth.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <section id="latest" class="sec11 ">
+        <div class="container container11 d-flex flex-column justify-content-center align-items-center">
+            <div class="top d-flex flex-column justify-content-center align-items-centermy-5">
+                <h1 class="mt-5">Latest News</h1>
+                <hr>
+            </div>
+
+            <div class="bottom d-flex justify-content-center my-5 align-items-center mx-auto">
+                <div class="row gap-5 ">
+                    <div class="card col-lg-4 col-12" style="width: 18rem;">
+                        <img src="1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tax impacts of lease mean accounting </h5>
+                            <p class="card-text">HMRC released a consultation document to flag some poterntial tax
+                                impacts
+                                that a forthcoming change...</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center align-items-center">Learn
+                                More<i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-4" style="width: 18rem;">
+                        <img src="2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">What brexit means for data protection law</h5>
+                            <p class="card-text">Assuming that the referendum is not ignored completely, there are two
+                                possible futures for the UK...</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center align-items-center">Learn
+                                More<i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                    <div class="card col-4" style="width: 18rem;">
+                        <img src="3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">The growing meanace of social engineering fraud</h5>
+                            <p class="card-text">Social engineering involves the collection of information from various
+                                sources about a target...</p>
+                            <a href="#" class="btn btn-primary d-flex justify-content-center align-items-center">Learn
+                                More<i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contact" class="container d-flex flex-column justify-content-around flex-md-row flex-lg-row ">
+            <form class=" rounded-5 d-flex flex-column justify-content-around align-items-start g-3">
+                <div class="">
+                    <h1>Signup for email alerts</h1>
+                </div>
+                <div class="my-2">
+                    <label for="inputPassword2" class="visually-hidden">Password</label>
+                    <input type="email" class="form-control" id="inputEmail2" placeholder="Your Email">
+                </div>
+                <div class="">
+                    <button class="btn btn-danger  w-100">Confirm <span class="d-none d-lg-block">identity</span></button>
+                </div>
+            </form>
+            <div class="contact d-none d-lg-block">
+                <ul>
+                    <li class="mb-3">Contact Us</li>
+                    <li class="mb-3">FAQ</li>
+                    <li class="mb-3">Privacy Policy</li>
+                    <li class="mb-3">Terms of Use</li>
+                    <li class="mb-3">Global Office</li>
+                    <li class="mb-3">Local Office</li>
+                </ul>
+            </div>
+            <div class="accounts">
+                <ul class=" d-none d-md-block d-lg-block mt-5 gap-3">
+                    <li class="mb-4"><i class='bx bxl-linkedin-square'></i>Linkedin</li>
+                    <li class="mb-4"><i class='bx bxl-twitter'></i>Twitter</li>
+                    <li class="mb-4"><i class="bx bxl-facebook-square"></i>Facebook</li>
+                    <li class="mb-4"><i class="bx bxl-google-plus-circle"></i>Google</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <section class="last">
+        <div class="container containerlast d-flex justify-content-around align-items-center py-3">
+            <div class="logo font">Elixir</div>
+            <div class="copy d-none d-lg-block d-sm-block">&copy; CopyRight 2021 Elixir Inc.</div>
+            <div class="design d-none d-lg-block d-sm-block"> Code by LogicNectar</div>
+            <a href="#"><i style="font-size: 25px;" class='bx bxs-up-arrow-square'></i></a>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- JavaScript area ///////////////////////////////////// -->
+
+    <!-- <script src="path/to/jquery.min.js"></script> -->
+<!-- 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script> -->
+
+        <script src="/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+
+
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
